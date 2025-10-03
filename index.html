@@ -1,0 +1,170 @@
+<!-- TODO: change pictures -->
+<!-- TODO: change social names to social icons -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lidor Blustein Portfolio Website</title>
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" 
+        crossorigin="anonymous">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lexend:wght@300&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="images/logo_no_bg.png" alt ="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Intro -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Lidor Blustein</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Software Developer</p>
+            <img src="images/face_picture.jpg" alt="a picture of Lidor Blustein smiling" class="intro__img">
+        </section>
+
+        <!-- My Services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Software Developer</h3>
+                    <p>Building small projects, specialized in
+                        Java, Python and C. Currently studying 
+                        Computer Science at 'The Open University'
+                    </p>
+                </div> <!-- /service -->
+
+                <div class="service">
+                    <h3>E-commerce Shop Manager</h3>
+                    <p>Setting up and managing independent stores 
+                        on platforms such as Wix and Shopify, 
+                        marketplaces such as eBay, Amazon and Etsy
+                    </p>
+                </div> <!-- /service -->
+            </div> <!-- /services -->
+
+            <a href="#work" class="btn">My Work</a>
+        </section>
+
+        <!-- About Me -->  
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">
+                A quick summary
+            </p>
+
+            <div class="about-me__body">
+                <p>
+                    A proactive and diligent individual, 
+                    a self-learner with a wide-ranging perspective 
+                    and experience in e-commerce platforms, 
+                    building shopping websites and managing them 
+                    independently. Student at The Open University, 
+                    experienced in developing small projects in Java, 
+                    Python and C and always aspires to gain knowledge 
+                    in the field.
+                </p>
+            </div>
+
+            <img src="images/about_me_img.jpg" alt="" class="about-me__img">
+        </section>
+
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My Work</h2>
+            <p class="section__subtitle section__subtitle--work">Some of my projects</p>
+
+            <div class="portfolio">
+                <!-- Portfolio Item 01 -->
+                <a href="shopping-list.html" class="portfolio__item">
+                    <img src="images/shopping_list.png" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio Item 02 -->
+                <a href="youtubeShortsGenerator/index.html" class="portfolio__item">
+                    <img src="youtubeShortsGenerator/random_youtube_video_generator.png" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio Item 03 -->
+                <a href="#" class="portfolio__item">
+                    <img src="images/my_work_3.png" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio Item 04 -->
+                <a href="#" class="portfolio__item">
+                    <img src="images/my_work_4.jpg" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio Item 05 -->
+                <a href="#" class="portfolio__item">
+                    <img src="images/my_work_5.jpg" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio Item 06 -->
+                <a href="#" class="portfolio__item">
+                    <img src="images/my_work_6.jpg" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:lidorblustein@gmail.com" class="footer__link">
+                lidorblustein@gmail.com
+            </a>
+            <a href="/Lidor Blustein CV 2024.pdf" download>
+                <img src="/images/cv.png" alt="cv" class="cv__img">
+              </a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/BlusteinLidor">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/lidor-blustein/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.facebook.com/lidor.blustein/">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com/liidorr">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+<script src="js/index.js"></script>
+
+    </body>
+</html>
